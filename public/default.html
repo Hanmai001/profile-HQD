@@ -5,54 +5,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/default.css">
     <title>Nhóm HQD</title>
 </head>
 </head>
-<style>
-    #photos {
-        text-align: center;
-    }
 
-    table,
-    th,
-    td {
-        border: 1px solid black;
-    }
-</style>
 
 <body>
-    <h1>Chào mừng các bạn đến với nhóm HQD</h1>
-    <h2>Thông tin nhóm</h2>
-    <table style="width:25%">
-        <tr>
-            <th>MSSV</th>
-            <th>Họ và tên</th>
-            <th>Vai trò</th>
-        </tr>
-        <tr>
-            <td>20127153</td>
-            <td>Mai Trần Gia Hân</td>
-            <td>Nhóm trưởng</td>
-        </tr>
-        <tr>
-            <td>20127145</td>
-            <td>Hồ Quốc Duy</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>20127608</td>
-            <td>Trần Xuân Quang</td>
-            <td></td>
-        </tr>
-    </table>
-    <h2>Hình ảnh</h2>
-    <div id="photos">
-        <img src="./images/HQD.jpg" alt="Workplace" usemap="#workmap" width="1000" height="379">
-        <map name="workmap">
-            <area shape="rect" coords="119,105,220,353" alt="Hân" href="./members/20127153/20127153.html">
-            <area shape="rect" coords="470,270,550,360" alt="Duy" href="./members/20127145/20127145.html">
-            <area shape="rect" coords="680,34,950,378" alt="Quang" href="./members/20127608/20127608.html">
-        </map>
+    <div class="content">
+        <h1>Welcome to HQD team</h1>
+        <h2>"Talent wins games, but teamwork and intelligence win championships." – Michael Jordan</h2>
+        <img src="https://web-static.wrike.com/blog/content/uploads/2017/08/13-Awesome-Team-Building-Games-Infographic-1.jpg?av=3269acf27c1604560fc9ec1f4d59417a"
+            alt="">
+        <div class="intro">
+            <div class="picture" id="photos">
+                <img src="./images/HQD.jpg" usemap="#workmap" alt="">
+                <map name="workmap">
+                    <area shape="rect" coords="105,111,167,372" alt="Hân" href="./members/20127153/20127153.html">
+                    <area shape="rect" coords="372,282,429,373" alt="Duy" href="./members/20127145/20127145.html">
+                    <area shape="rect" coords="539,39,760,397" alt="Quang" href="./members/20127608/20127608.html">
+                </map>
+            </div>
+            <div class="info">
+                <div class="container">
+                    <div>
+                        <p>20127153</p>
+                        <p>Mai Trần Gia Hân</p>
+                        <p>Leader</p>
+                    </div>
+                    <div>
+                        <p>20127145</p>
+                        <p>Hồ Quốc Duy</p>
+                        <p>Member</p>
+                    </div>
+                    <div>
+                        <p>20127608</p>
+                        <p>Trần Xuân Quang</p>
+                        <p>Member</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        
     </div>
 
 </body>
