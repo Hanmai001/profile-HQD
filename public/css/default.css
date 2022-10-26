@@ -145,6 +145,15 @@ h2 {
     padding-left: 1rem;
     font-size: 1.3rem;
 }
+.container-profile .info ul>li h4 {
+    display: inline-block;
+    width: 25%;
+}
+.container-profile .info ul>li > div {
+    display: inline-block;
+    width: 70%;
+    text-align: right;
+}
 
 .container-profile .info .social {
     text-align: center;
